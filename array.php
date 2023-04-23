@@ -17,7 +17,7 @@ echo "<pre>";
 print_r($d);
 echo "</pre>";
 
-$fill = array_fill(0, 25, 'hi');
+$fill = array_fill(0, 55, 'hi');
 echo "<pre>";
 print_r($fill);
 echo "</pre>";
@@ -25,7 +25,7 @@ echo "</pre>";
 echo array_search("10", $d);
 echo $d[4];
 
-$a = [1 => "A", "001" => "B", "name" => "mack", "parent_name" => "mack"];
+$a = [1 => "A", "001" => "B", "name" => "Tony", "parent_name" => "Jocy"];
 echo $a[1];
 echo $a['001'];
 echo $a['name'];
